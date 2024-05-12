@@ -11,8 +11,7 @@ public class HelloWorldController {
 	
     @GetMapping("/")
     public String helloWorld(Model model) {
-        model.addAttribute("message", "Hello World！");
+        model.addAttribute("message", "Hello World！ + Branch Test");
         return "index";
     }
-    
 }
